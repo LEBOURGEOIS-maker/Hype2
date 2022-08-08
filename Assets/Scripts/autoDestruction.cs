@@ -6,7 +6,7 @@ public class autoDestruction : MonoBehaviour {
 
     public float timer;
 
-	// Use this for initialization by Emilie
+	// Use this for initialization 
 	void Start () {
         Destroy(gameObject, timer);
 	}
