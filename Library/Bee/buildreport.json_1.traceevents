@@ -1,0 +1,747 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1659971541383728, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971541385599, "dur": 25055, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971541410808, "dur": 66915, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971541477805, "dur": 386814, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971541864622, "dur": 8989555, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971550854195, "dur": 10692, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971592643974, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971592644010, "dur": 31609, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971592675622, "dur": 63866, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971592739491, "dur": 386419, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971593125912, "dur": 5383026, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971598508940, "dur": 9751, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971697310148, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971697310500, "dur": 10464, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971697320968, "dur": 48524, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971697369496, "dur": 871903, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971698241401, "dur": 6055080, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971704296484, "dur": 2030, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971704299309, "dur": 53, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1659971697946303, "dur": 270530, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659971697947315, "dur": 70186, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659971698195243, "dur": 8250, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659971698203497, "dur": 13323, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659971698204352, "dur": 11292, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659971698222964, "dur": 1286, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1659971698222152, "dur": 2126, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971704299502, "dur": 321345, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1659971698286852, "dur":9815, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971698296678, "dur":124, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1659971698296864, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1659971698296893, "dur":581, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1659971698297524, "dur":789, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971698298313, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087362, "dur":257, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087619, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087636, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087640, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087650, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087652, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087661, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087663, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087671, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087673, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087681, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087683, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087690, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087692, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087701, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087703, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087710, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087732, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704087754, "dur":1969, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1659971698297693, "dur":631, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971698298327, "dur":3239, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971698301583, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659971698301592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971698303523, "dur":283, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659971698303811, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659971698303833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971698303985, "dur":7407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659971698311397, "dur":42542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1659971698353945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971698353954, "dur":56147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1659971698410116, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1659971698410146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971698410153, "dur":178026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1659971698588197, "dur":77176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971698665379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971698665388, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971698666257, "dur":170368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971698836633, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971698836683, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971698837718, "dur":116320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971698954045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971698954054, "dur":24465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971698978543, "dur":177832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699156379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699156386, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699157346, "dur":77872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699235223, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699235234, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699236402, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699237058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699237068, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699237767, "dur":7579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.AppleCore.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1659971699245351, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699245359, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.AppleCore.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1659971699246176, "dur":46023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699292203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699292211, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699294732, "dur":59791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699354529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699354540, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699355386, "dur":31516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699386909, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699386920, "dur":58087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699445027, "dur":32225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699477258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699477268, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699478791, "dur":5555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Advertisements.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1659971699484353, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699484365, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Advertisements.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1659971699485224, "dur":30937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699516167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699516177, "dur":75601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699591795, "dur":6133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1659971699597933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699597944, "dur":1927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1659971699599889, "dur":6466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1659971699606359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699606368, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1659971699607077, "dur":5975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1659971699613055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699613063, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1659971699613760, "dur":6816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1659971699620583, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699620596, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1659971699621795, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699622551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699622560, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699623111, "dur":688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699623802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699623810, "dur":535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699624358, "dur":30110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699654472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699654480, "dur":756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699655249, "dur":99196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699754463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699754474, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699755432, "dur":89584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699845022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971699845032, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971699845781, "dur":259534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971700105321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971700105331, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659971700106273, "dur":23876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1659971700130152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971700130158, "dur":623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1659971700130795, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1659971700130810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971700130825, "dur":8902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1659971700139742, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level4/1e/1e9a7e2ad3221079db1dc6791e7cc248.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1659971700139770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971700139778, "dur":6257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level4/1e/1e9a7e2ad3221079db1dc6791e7cc248.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1659971700146052, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level2/eb/eb07f49effa1dce3a0934ca3ff92c2bd.vis" }}
+,{ "pid":12345, "tid":1, "ts":1659971700146068, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971700146374, "dur":7163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level2/eb/eb07f49effa1dce3a0934ca3ff92c2bd.vis" }}
+,{ "pid":12345, "tid":1, "ts":1659971700153562, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level2/eb/eb07f49effa1dce3a0934ca3ff92c2bd.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1659971700153585, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971700153594, "dur":6276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level2/eb/eb07f49effa1dce3a0934ca3ff92c2bd.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1659971700159886, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1659971700159911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971700159918, "dur":83602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1659971700243537, "dur":2066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1659971700245609, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971700245623, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1659971700246611, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1659971700246626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971700246633, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1659971700247725, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1659971700247741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971700247779, "dur":24443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1659971700272264, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1659971700272284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971700272294, "dur":36043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1659971700308354, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1659971700308372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971700308382, "dur":697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1659971700309091, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1659971700309103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659971700309109, "dur":36709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1659971700345845, "dur":3741510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971698297737, "dur":596, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971698298334, "dur":3243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971698301583, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1659971698301698, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971698304649, "dur":104526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1659971698409202, "dur":7921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1659971698417127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971698417135, "dur":641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1659971698417800, "dur":191037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971698608844, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971698608854, "dur":3250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971698612119, "dur":82527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971698694652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971698694662, "dur":7206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971698701885, "dur":44438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971698746329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971698746339, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971698747634, "dur":52023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971698799668, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971698799690, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971698801679, "dur":218050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699019736, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699019748, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699020915, "dur":82764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699103686, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699103696, "dur":31613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699135321, "dur":6618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.SpatialTracking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1659971699141946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699141956, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.SpatialTracking.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1659971699142629, "dur":28769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699171404, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699171415, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699172180, "dur":72877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699245063, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699245074, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699246297, "dur":36989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699283291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699283302, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699284037, "dur":24894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699308943, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699308962, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699309916, "dur":33631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699343551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699343562, "dur":6021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699349615, "dur":33896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699383516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699383524, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699384304, "dur":22063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699406378, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699406398, "dur":39180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699445590, "dur":20844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699466441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699466451, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699467193, "dur":35730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699502928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699502937, "dur":673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699503622, "dur":327694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699831323, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699831335, "dur":4450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699835802, "dur":49076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699884889, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699884904, "dur":3233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699888161, "dur":77613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699965780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699965790, "dur":5124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971699970933, "dur":6156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Purchasing.Common.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1659971699977095, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971699977105, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Purchasing.Common.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1659971699977867, "dur":53150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971700031024, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971700031035, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971700031846, "dur":37717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1659971700069576, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971700069609, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1659971700071093, "dur":57866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971700128966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971700128976, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659971700129812, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1659971700129888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971700130025, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1659971700130835, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level4/1e/1e9a7e2ad3221079db1dc6791e7cc248.vis" }}
+,{ "pid":12345, "tid":2, "ts":1659971700130850, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971700131183, "dur":6401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level4/1e/1e9a7e2ad3221079db1dc6791e7cc248.vis" }}
+,{ "pid":12345, "tid":2, "ts":1659971700137601, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level4/1e/1e9a7e2ad3221079db1dc6791e7cc248.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1659971700137617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971700137627, "dur":6158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level4/1e/1e9a7e2ad3221079db1dc6791e7cc248.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1659971700143803, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level4/1e/1e9a7e2ad3221079db1dc6791e7cc248.caw" }}
+,{ "pid":12345, "tid":2, "ts":1659971700143819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971700143829, "dur":6300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level4/1e/1e9a7e2ad3221079db1dc6791e7cc248.caw" }}
+,{ "pid":12345, "tid":2, "ts":1659971700150144, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level2/eb/eb07f49effa1dce3a0934ca3ff92c2bd.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1659971700150158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971700150166, "dur":5476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level2/eb/eb07f49effa1dce3a0934ca3ff92c2bd.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1659971700155657, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level2/eb/eb07f49effa1dce3a0934ca3ff92c2bd.caw" }}
+,{ "pid":12345, "tid":2, "ts":1659971700155671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971700155679, "dur":6025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level2/eb/eb07f49effa1dce3a0934ca3ff92c2bd.caw" }}
+,{ "pid":12345, "tid":2, "ts":1659971700161719, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1659971700161733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971700161739, "dur":87588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1659971700249341, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1659971700249355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971700249360, "dur":39557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1659971700288941, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1659971700288960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659971700288971, "dur":49227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1659971700338218, "dur":3749142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971698297788, "dur":556, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971698298345, "dur":3598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971698301944, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1659971698301989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971698304011, "dur":34403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1659971698338450, "dur":24774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1659971698363232, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971698363247, "dur":46913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1659971698410175, "dur":434788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971698844971, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971698845028, "dur":9005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971698854067, "dur":27943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971698882016, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971698882027, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971698882772, "dur":72202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971698954980, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971698954990, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971698956175, "dur":11734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1659971698967915, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971698967926, "dur":26961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1659971698994900, "dur":79823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699074733, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699074746, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699075554, "dur":56521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699132085, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699132103, "dur":3144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699135265, "dur":23486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699158755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699158763, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699159755, "dur":715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699160475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699160487, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699161987, "dur":12363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.WinRTCore.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1659971699174355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699174364, "dur":3285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.WinRTCore.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1659971699177660, "dur":972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699178636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699178643, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699179363, "dur":5827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1659971699185197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699185207, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1659971699185896, "dur":56620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699242523, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699242536, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699243456, "dur":48888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699292348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699292355, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699293710, "dur":25245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699318961, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699318971, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699319841, "dur":30061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699349929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699349938, "dur":624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699350574, "dur":32677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699383258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699383268, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699383965, "dur":22402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699406378, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699406398, "dur":39107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699445520, "dur":34994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699480520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699480531, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699481491, "dur":68894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699550392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699550402, "dur":41922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699592341, "dur":48458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699640803, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699640834, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699641626, "dur":32525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1659971699674175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699674185, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1659971699675231, "dur":262965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699938244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971699938255, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971699939491, "dur":149158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971700088655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971700088666, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971700089751, "dur":668957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971700758712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659971700758719, "dur":81169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659971700839902, "dur":3247465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971698297835, "dur":518, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971698298353, "dur":3223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971698301583, "dur":42057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1659971698343648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971698343880, "dur":65796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1659971698409691, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1659971698409729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971698409758, "dur":227604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1659971698637382, "dur":26565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971698663953, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971698663965, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971698664911, "dur":170789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971698835714, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971698835735, "dur":65499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971698901254, "dur":80398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971698981659, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971698981670, "dur":5179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971698986879, "dur":57509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699044395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699044405, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699045351, "dur":87530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699132884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699132920, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699134951, "dur":20444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699155402, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699155413, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699156169, "dur":45862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699202038, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699202050, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699203153, "dur":31790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.AppleStub.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1659971699234950, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699234963, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.AppleStub.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1659971699236248, "dur":9319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1659971699245571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699245578, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1659971699246377, "dur":51488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699297870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699297878, "dur":9570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699307613, "dur":34781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699342401, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699342411, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699343196, "dur":70927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699414130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699414141, "dur":31283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699445436, "dur":46204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699491644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699491651, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699492384, "dur":84614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699577004, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699577016, "dur":15166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699592199, "dur":5729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1659971699597934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699597944, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1659971699599526, "dur":6877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1659971699606407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699606413, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1659971699607100, "dur":47259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699654366, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699654377, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699656102, "dur":86472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699742580, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699742590, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699743935, "dur":108953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699852892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971699852901, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971699853611, "dur":185442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971700039079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971700039101, "dur":2392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971700041731, "dur":173630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971700215371, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971700215386, "dur":7019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659971700222447, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1659971700222484, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971700222502, "dur":2539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1659971700225061, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1659971700225081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971700225088, "dur":11747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1659971700236883, "dur":11451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1659971700248338, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971700248348, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1659971700249197, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1659971700249211, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971700249216, "dur":8023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1659971700257259, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1659971700257274, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971700257285, "dur":11844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1659971700269169, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1659971700269200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971700269221, "dur":8277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1659971700277525, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1659971700277542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971700277550, "dur":11684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1659971700289258, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1659971700289277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971700289282, "dur":13701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1659971700303005, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1659971700303030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659971700303044, "dur":56263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1659971700359335, "dur":3728045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971698297880, "dur":486, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971698298366, "dur":3566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971698301936, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1659971698301981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971698303812, "dur":272598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1659971698576462, "dur":32157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever.exe" }}
+,{ "pid":12345, "tid":5, "ts":1659971698608625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971698608634, "dur":2635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever.exe" }}
+,{ "pid":12345, "tid":5, "ts":1659971698611285, "dur":19541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1659971698630832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971698631036, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.XR.LegacyInputHelpers.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1659971698631639, "dur":25587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971698657232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971698657265, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971698658076, "dur":154013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971698812095, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971698812106, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971698812817, "dur":138355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971698951203, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971698951215, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971698952145, "dur":181018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699133167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971699133173, "dur":19803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699152995, "dur":94699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699247700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971699247711, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699250750, "dur":46014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699296771, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971699296808, "dur":733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699297556, "dur":126676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699424237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971699424244, "dur":21388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699445647, "dur":45234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699490888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971699490898, "dur":769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699491682, "dur":5920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1659971699497608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971699497618, "dur":4266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1659971699501924, "dur":11253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1659971699513183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971699513193, "dur":78384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1659971699591591, "dur":735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699592329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971699592338, "dur":596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699592945, "dur":33847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699626798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971699626809, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699628057, "dur":10010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1659971699638073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971699638083, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1659971699639281, "dur":3638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699642924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971699642938, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699643577, "dur":1268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699644851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971699644861, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699645593, "dur":9085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Analytics.DataPrivacy.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1659971699654709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971699654716, "dur":636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Analytics.DataPrivacy.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1659971699655369, "dur":239526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699894902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971699894912, "dur":7485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971699902413, "dur":195731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971700098150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971700098160, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971700100342, "dur":373578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971700473924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659971700473931, "dur":13620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659971700487569, "dur":3599794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971698297926, "dur":448, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971698298374, "dur":3396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971698301774, "dur":22724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1659971698324502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971698324520, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1659971698325078, "dur":31120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1659971698356205, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971698356223, "dur":53893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1659971698410130, "dur":106007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971698516143, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971698516345, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971698517404, "dur":172696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1659971698690106, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971698690231, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1659971698692509, "dur":109389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971698801901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971698801911, "dur":576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971698802502, "dur":44702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971698847212, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971698847223, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971698848145, "dur":41542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971698889694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971698889704, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971698890433, "dur":123969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699014408, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699014419, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699015310, "dur":104669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699119986, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699119997, "dur":15052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699135065, "dur":22485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699157555, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699157567, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699158271, "dur":6325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.WinRTStub.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1659971699164602, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699164614, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.WinRTStub.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1659971699165400, "dur":860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699166271, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699166292, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699167578, "dur":7691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.Stores.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1659971699175273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699175281, "dur":715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.Stores.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1659971699176010, "dur":889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699176903, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699176911, "dur":580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699177502, "dur":14821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.SecurityCore.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1659971699192329, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699192340, "dur":594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.SecurityCore.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1659971699192947, "dur":8455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.Codeless.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1659971699201474, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699201498, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.Codeless.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1659971699202710, "dur":38087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699240803, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699240814, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699241523, "dur":39570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699281100, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699281161, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699282293, "dur":86061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699368360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699368371, "dur":896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699369284, "dur":134647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699503935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699503959, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699505385, "dur":8003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1659971699513391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699513398, "dur":78416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1659971699591832, "dur":48590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699640426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699640514, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699641148, "dur":43632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699684786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699684797, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699685472, "dur":166432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699851911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971699851921, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971699853405, "dur":270241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971700123652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971700123661, "dur":2367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971700126044, "dur":93900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971700219975, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971700220011, "dur":3762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659971700223805, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1659971700223842, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971700223861, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1659971700225055, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1659971700225076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659971700225086, "dur":149607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1659971700374711, "dur":3712662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971698297964, "dur":421, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971698298386, "dur":3373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971698301765, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1659971698301825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971698303821, "dur":28783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1659971698332634, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1659971698332702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971698332716, "dur":247839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1659971698580578, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1659971698580620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971698580783, "dur":310654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1659971698891467, "dur":30655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971698922131, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971698922144, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971698922888, "dur":53306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971698976202, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971698976215, "dur":18312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971698994544, "dur":43395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699038187, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699038200, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699039843, "dur":47363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699087213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699087223, "dur":47588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699134829, "dur":38104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699172937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699172946, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699173624, "dur":36707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.SecurityStub.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1659971699210338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699210347, "dur":7600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.SecurityStub.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1659971699217964, "dur":20035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699238003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699238033, "dur":702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699238755, "dur":33394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699275377, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699275394, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699276956, "dur":14213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Monetization.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1659971699291177, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699291188, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.Monetization.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1659971699292085, "dur":33312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699325403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699325413, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699326249, "dur":30712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699356967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699356978, "dur":3433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699360426, "dur":30591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699391023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699391057, "dur":54687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699445756, "dur":118245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699564006, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699564031, "dur":28770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699592818, "dur":11562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1659971699604386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699604397, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1659971699605090, "dur":1332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699606425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699606431, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699607255, "dur":5790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1659971699613051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699613063, "dur":27306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1659971699640390, "dur":11783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1659971699652182, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699652197, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1659971699652945, "dur":11192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699664143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699664153, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699665562, "dur":107863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699773433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699773442, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699774414, "dur":44466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699818888, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699818905, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699820349, "dur":106971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699927326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971699927336, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971699928331, "dur":202422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971700130774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971700130782, "dur":623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1659971700131418, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level4/1e/1e9a7e2ad3221079db1dc6791e7cc248.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1659971700131436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971700131473, "dur":7587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level4/1e/1e9a7e2ad3221079db1dc6791e7cc248.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1659971700139092, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level4/1e/1e9a7e2ad3221079db1dc6791e7cc248.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1659971700139115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971700139130, "dur":9559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level4/1e/1e9a7e2ad3221079db1dc6791e7cc248.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1659971700148718, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level2/eb/eb07f49effa1dce3a0934ca3ff92c2bd.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1659971700148740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971700148778, "dur":6267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level2/eb/eb07f49effa1dce3a0934ca3ff92c2bd.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1659971700155070, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level2/eb/eb07f49effa1dce3a0934ca3ff92c2bd.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1659971700155098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971700155112, "dur":6544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/GI/level2/eb/eb07f49effa1dce3a0934ca3ff92c2bd.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1659971700161674, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1659971700161692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971700161699, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1659971700162552, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1659971700162565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971700162571, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1659971700165056, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1659971700165073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971700165082, "dur":172779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1659971700337884, "dur":14638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/Hype Forever_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1659971700352540, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1659971700352563, "dur":3434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/Hype Forever_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1659971700356034, "dur":3731343, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659971698298007, "dur":389, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659971698298396, "dur":3349, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659971698301752, "dur":21083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1659971698322841, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659971698322883, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1659971698323570, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1659971698323605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659971698323622, "dur":12834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1659971698336476, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1659971698336547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659971698336833, "dur":3203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1659971698340060, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1659971698340106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659971698340126, "dur":69746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1659971698409888, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1659971698409923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659971698409930, "dur":15239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1659971698425193, "dur":5520434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Users/fabdu/Bureau/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659971703945632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1659971703945641, "dur":141650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Users/fabdu/Bureau/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1659971704087313, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1659971704087316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659971704091169, "dur":2359, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1659971704620909, "dur": 4361, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659971704299279, "dur": 326016, "ph": "X", "name": "Write chrome-trace events", "args": {} },

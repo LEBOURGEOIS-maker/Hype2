@@ -118,6 +118,10 @@
 -define:CROSS_PLATFORM_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"D:/Program Files/Github_projects/Hype/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
+-r:"D:/Program Files/Github_projects/Hype/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll"
+-r:"D:/Program Files/Github_projects/Hype/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll"
+-r:"D:/Program Files/Github_projects/Hype/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -321,10 +325,6 @@
 -r:"D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"D:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
--r:"P:/Autres/Projet_Hype/Hype/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
--r:"P:/Autres/Projet_Hype/Hype/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll"
--r:"P:/Autres/Projet_Hype/Hype/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll"
--r:"P:/Autres/Projet_Hype/Hype/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Analytics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Purchasing.Common.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
@@ -359,9 +359,6 @@
 "Assets/Animation/PlayerController.cs"
 "Assets/Animation/ThirdPersonCamera.cs"
 "Assets/Animation/TransparencyController.cs"
-"Assets/Assets/Knight/scripts/rotator.cs"
-"Assets/Assets/_Creepy_Cat/3D Games Effects Pack Free/Example_02/InstanceExample.cs"
-"Assets/LevelLoader.cs"
 "Assets/Scripts/autoDestruction.cs"
 "Assets/Scripts/CharacterMotor.cs"
 "Assets/Scripts/Checkpoint.cs"
@@ -374,7 +371,6 @@
 "Assets/Scripts/spellCollision.cs"
 "Assets/Scripts/TriggerManagement.cs"
 "Assets/Scripts/TriggerTorasToPark.cs"
-"Assets/TriggerManagement.cs"
 -langversion:9.0
 
 /deterministic
