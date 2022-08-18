@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class CharacterMotor : MonoBehaviour {
 
-
     // Animations du perso
     Animation animations;
 
@@ -44,7 +43,7 @@ public class CharacterMotor : MonoBehaviour {
         return Physics.CheckCapsule(playerCollider.bounds.center, new Vector3(playerCollider.bounds.center.x, playerCollider.bounds.min.y - 0.1f, playerCollider.bounds.center.z), 0.08f, layerMask:9);
     }
 
-	void Update () {
+	void Update2 () {
 
         if (!isDead)
         {
