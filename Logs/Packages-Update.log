@@ -34,3 +34,31 @@ The following packages were updated:
   com.unity.ide.rider from version 3.0.14 to 3.0.15
   com.unity.ide.visualstudio from version 2.0.15 to 2.0.16
   com.unity.purchasing from version 4.1.4 to 4.3.0
+
+=== Fri Aug 19 13:18:39 2022
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.cinemachine@2.6.4
+  com.unity.inputsystem@1.0.2
+  com.unity.render-pipelines.high-definition@10.5.0
+
+=== Fri Aug 19 13:52:56 2022
+
+Packages were changed.
+Update Mode: resetToDefaultDependencies
+
+The following packages were added:
+  com.unity.visualscripting@1.7.8
+The following packages were removed:
+  com.unity.2d.sprite@1.0.0
+  com.unity.2d.tilemap@1.0.0
+  com.unity.ads@3.7.5
+  com.unity.analytics@3.6.12
+  com.unity.cinemachine@2.6.4
+  com.unity.inputsystem@1.0.2
+  com.unity.purchasing@4.3.0
+  com.unity.render-pipelines.high-definition@10.5.0
+  com.unity.xr.legacyinputhelpers@2.1.9

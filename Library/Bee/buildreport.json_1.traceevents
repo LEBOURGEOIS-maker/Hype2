@@ -1,0 +1,770 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1660917876106650, "dur": 11972156, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660917876106678, "dur": 6490, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660917876113169, "dur": 31376, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660917876144547, "dur": 246056, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660917876390605, "dur": 11686907, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660917888077514, "dur": 1291, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660917888079067, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1660917876239167, "dur": 129822, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660917876240151, "dur": 63563, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660917876353111, "dur": 4735, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660917876357850, "dur": 11122, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660917876358567, "dur": 9728, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660917876373516, "dur": 1224, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1660917876372650, "dur": 2113, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660917888079111, "dur": 295895, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1660917876435970, "dur":13626, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917876449606, "dur":112, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1660917876449779, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1660917876449807, "dur":585, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1660917876450426, "dur":994, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917876451420, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887786745, "dur":364, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787109, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787129, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787130, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787137, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787140, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787147, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787149, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787155, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787157, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787162, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787164, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787169, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787171, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787176, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787178, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787183, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787192, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887787220, "dur":1466, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1660917876450877, "dur":581, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917876451459, "dur":5049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917876456509, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1660917876456556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917876498368, "dur":32201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1660917876530597, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1660917876530666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917876530685, "dur":83866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1660917876614591, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1660917876614619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917876624520, "dur":12796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1660917876637355, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1660917876637381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917876637414, "dur":475705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1660917877113143, "dur":5901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UNETModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877119051, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877119059, "dur":6230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UNETModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877125314, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877125336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877125343, "dur":22098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877147468, "dur":6912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UIElementsNativeModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877154383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877154389, "dur":4326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UIElementsNativeModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877158740, "dur":4347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877163091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877163113, "dur":4782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877167922, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877167943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877167952, "dur":172500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877340487, "dur":8460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877348953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877348962, "dur":5123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877354119, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877354138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877354145, "dur":51932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877406110, "dur":6262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877412379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877412387, "dur":6392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877418817, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877418838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877418845, "dur":47930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877466822, "dur":9715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877476545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877476553, "dur":4597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877481172, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877481188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877481195, "dur":28952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877510169, "dur":6228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877516404, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877516414, "dur":13163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877529600, "dur":13787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877543393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877543402, "dur":4252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877547685, "dur":8305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877555997, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877556005, "dur":4274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877560302, "dur":5761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877566067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877566072, "dur":4144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877570252, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877570272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877570279, "dur":31639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877601950, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877601968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877601975, "dur":41737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877643737, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877643759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877643765, "dur":27475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877671267, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877671287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877671294, "dur":37684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877709011, "dur":5580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877714621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877714629, "dur":4477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877719123, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877719140, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877719145, "dur":127762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877846937, "dur":42922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877889864, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877889873, "dur":45209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917877935111, "dur":7300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877942415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877942421, "dur":8787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877951243, "dur":6207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877957456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917877957464, "dur":9721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1660917877967209, "dur":219339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917878186554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917878186563, "dur":381635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917878568219, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917878568236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917878568242, "dur":59223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917878627496, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917878627514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917878627521, "dur":48910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917878676455, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917878676473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917878676479, "dur":155425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917878832051, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917878832069, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917878832102, "dur":54860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1660917878886995, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1660917878887013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1660917878887019, "dur":139389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1660917879026435, "dur":8760341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660917876450825, "dur":611, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660917876451440, "dur":2396, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660917876453851, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1660917876453854, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660917876453896, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1660917876453910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660917876455839, "dur":23920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1660917876479762, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1660917876479807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660917876495292, "dur":28382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1660917876523705, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1660917876523779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660917876525281, "dur":99545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1660917876624853, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1660917876624886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660917876626611, "dur":13670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1660917876640312, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1660917876640338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660917876640347, "dur":6787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1660917876647166, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":2, "ts":1660917876647193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660917876647199, "dur":17507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":2, "ts":1660917876664748, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/UnityPlayer.so" }}
+,{ "pid":12345, "tid":2, "ts":1660917876664908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1660917876664914, "dur":11121757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/UnityPlayer.so" }}
+,{ "pid":12345, "tid":2, "ts":1660917887786702, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1660917887786703, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660917876450867, "dur":579, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660917876451446, "dur":2724, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660917876454170, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":3, "ts":1660917876454211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660917876472832, "dur":2101553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":3, "ts":1660917878574410, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660917878574428, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660917878574434, "dur":118821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660917878693280, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660917878693297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660917878693308, "dur":124112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660917878817443, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660917878817461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660917878817466, "dur":134465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1660917878951960, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1660917878952458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660917878952466, "dur":48735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1660917879001226, "dur":13093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1660917879014331, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1660917879014343, "dur":4040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1660917879018409, "dur":8768356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917876450923, "dur":544, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917876451468, "dur":4961, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917876456430, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1660917876456503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917876497501, "dur":24729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1660917876522262, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1660917876522309, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917876526224, "dur":8202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1660917876534457, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1660917876534482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917876534491, "dur":490814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1660917877025338, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877025367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877025373, "dur":128863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877154322, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877154345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877154352, "dur":51347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877205730, "dur":9201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917877214936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877214944, "dur":3841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917877218817, "dur":7747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917877226571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877226579, "dur":3804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917877230413, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877230430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877230437, "dur":224908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877455376, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877455397, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877455404, "dur":36922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877492348, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877492368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877492375, "dur":28923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877521323, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877521370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877521379, "dur":103158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877624571, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877624602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877624609, "dur":27652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877652285, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877652332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877652338, "dur":27627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877680003, "dur":7474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917877687483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877687491, "dur":10119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917877697647, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877697667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877697674, "dur":31960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877729664, "dur":5537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917877735207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877735216, "dur":5471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917877740742, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877740835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877740842, "dur":34312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877775182, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877775202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877775208, "dur":36061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877811292, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877811311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877811318, "dur":39128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877850469, "dur":9773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917877860245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877860252, "dur":12885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917877873166, "dur":82295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917877955465, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917877955472, "dur":75153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917878030664, "dur":8618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917878039286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917878039293, "dur":7077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917878046402, "dur":5736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917878052145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917878052153, "dur":11146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917878063328, "dur":8346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917878071685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917878071699, "dur":12779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917878084514, "dur":8727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917878093247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917878093256, "dur":13343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917878106622, "dur":5104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917878111732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917878111740, "dur":13584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917878125348, "dur":2678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917878128032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917878128062, "dur":26477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917878154574, "dur":6872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917878161451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917878161457, "dur":196762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1660917878358242, "dur":32525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917878390773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917878390782, "dur":37908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917878428728, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917878428746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917878428753, "dur":138052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917878566836, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917878566856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917878566863, "dur":126648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917878693585, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917878693604, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917878693608, "dur":139793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917878833424, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917878833440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1660917878833445, "dur":344417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1660917879177881, "dur":8608865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876451002, "dur":476, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876451478, "dur":4804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876456283, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1660917876456337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876486224, "dur":137522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1660917876623788, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1660917876623823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876625630, "dur":19834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1660917876645499, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1660917876645526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876645538, "dur":7874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1660917876653448, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype.x86_64" }}
+,{ "pid":12345, "tid":5, "ts":1660917876653470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876653475, "dur":30667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype.x86_64" }}
+,{ "pid":12345, "tid":5, "ts":1660917876684175, "dur":9704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917876693888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876694833, "dur":3708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917876698577, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917876698602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876698877, "dur":70892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917876769811, "dur":5091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917876774906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876774913, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917876778377, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917876778395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876778400, "dur":19984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917876798412, "dur":3754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917876802170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876802176, "dur":4393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917876806603, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917876806624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876806629, "dur":19167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917876825834, "dur":5518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917876831356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876831362, "dur":3743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917876835134, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917876835154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876835159, "dur":41486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917876876667, "dur":7826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917876884500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876884509, "dur":17497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917876902041, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917876902068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876902074, "dur":84283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917876986388, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917876986409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917876986416, "dur":30852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877017299, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877017320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877017389, "dur":31869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877049284, "dur":5101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877054392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877054401, "dur":5249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877059682, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877059703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877059721, "dur":29340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877089094, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877089116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877089123, "dur":25290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877114439, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877114463, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877114469, "dur":65719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877180221, "dur":140997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877321225, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877321233, "dur":157636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877478889, "dur":14221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877493114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877493121, "dur":6954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877500101, "dur":6698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877506806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877506815, "dur":4318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877511159, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877511177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877511183, "dur":54303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877565510, "dur":8977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877574494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877574503, "dur":4559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877579095, "dur":9670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877588771, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877588779, "dur":6463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877595287, "dur":7725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877603019, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877603026, "dur":4081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877607143, "dur":6408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877613556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877613583, "dur":5552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877619602, "dur":7592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877627200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877627209, "dur":3936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877631178, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877631199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877631205, "dur":26241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877657465, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877657483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877657558, "dur":60398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877717976, "dur":7501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877725484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877725492, "dur":5589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877731112, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877731129, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877731178, "dur":27854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877759059, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877759081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877759087, "dur":51446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877810566, "dur":4766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877815337, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877815342, "dur":3689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877819055, "dur":1789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877820850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877820858, "dur":4538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917877825418, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877825441, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877825447, "dur":31391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877856870, "dur":90535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917877947410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917877947416, "dur":83467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917878030901, "dur":25582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917878056490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878056499, "dur":41085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917878097611, "dur":7127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917878104744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878104752, "dur":8577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917878113364, "dur":10284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917878123746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878123754, "dur":25822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917878149609, "dur":1380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917878150995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878151002, "dur":194967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917878345994, "dur":931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917878346931, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878346940, "dur":9652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917878356627, "dur":8486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917878365119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878365127, "dur":12401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917878377558, "dur":6679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917878384243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878384251, "dur":11213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1660917878395495, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917878395515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878395522, "dur":255149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917878650701, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917878650717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878650723, "dur":191867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1660917878842617, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1660917878842729, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878843421, "dur":22093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1660917878865539, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1660917878865555, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878865561, "dur":26620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1660917878892206, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1660917878892222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878892227, "dur":31998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1660917878924260, "dur":869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1660917878925132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878925139, "dur":5542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1660917878930713, "dur":977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1660917878931700, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878931716, "dur":7809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1660917878939580, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1660917878939604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878939614, "dur":4914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1660917878944578, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1660917878944622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878944632, "dur":38371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1660917878983060, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1660917878983097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917878983107, "dur":17613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1660917879000761, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1660917879000784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1660917879000791, "dur":23135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1660917879023954, "dur":8762833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917876451049, "dur":437, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917876451486, "dur":2650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917876454137, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":6, "ts":1660917876454160, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917876475566, "dur":42914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":6, "ts":1660917876518513, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1660917876518540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917876519111, "dur":482397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1660917877001543, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877001563, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877001568, "dur":59491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877061083, "dur":4929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877066018, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877066027, "dur":5071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877071135, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877071162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877071169, "dur":28325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877099516, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877099539, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877099544, "dur":24999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877124576, "dur":5772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877130354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877130363, "dur":4522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877134913, "dur":6497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877141415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877141423, "dur":3809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877145287, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877145359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877145390, "dur":35885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877181304, "dur":6006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877187317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877187325, "dur":5541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877192891, "dur":4437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877197332, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877197338, "dur":3511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877200872, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877200889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877200894, "dur":49021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877249950, "dur":8695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877258652, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877258661, "dur":10547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877269240, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877269320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877269328, "dur":134210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877403562, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877403579, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877403608, "dur":59740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877463368, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877463384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877463392, "dur":28870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877492296, "dur":7197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877499500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877499509, "dur":8614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877508152, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877508184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877508190, "dur":33004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877541225, "dur":7515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877548744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877548752, "dur":5428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877554217, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877554237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877554244, "dur":57961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877612241, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877612272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877612279, "dur":120155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877732454, "dur":5969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877738730, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877738739, "dur":5229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877743985, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877744003, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877744009, "dur":35249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877779293, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877779340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877779348, "dur":61948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877841320, "dur":7930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877849255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877849263, "dur":10797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877860085, "dur":5188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877865277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877865283, "dur":11517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1660917877876830, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877876847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877876855, "dur":61721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877938609, "dur":57925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917877996540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917877996547, "dur":58326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917878054931, "dur":54070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917878109008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917878109016, "dur":43741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917878152827, "dur":24527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917878177358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917878177365, "dur":203306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917878380706, "dur":817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917878381553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917878381561, "dur":5905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917878387503, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917878387526, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917878387532, "dur":96312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917878483878, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917878483899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917878483906, "dur":148872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917878632808, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917878632828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917878632835, "dur":207137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917878840000, "dur":87586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917878927593, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1660917878927604, "dur":73878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1660917879001507, "dur":8785232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917876451092, "dur":404, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917876451496, "dur":2603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917876454099, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":7, "ts":1660917876454126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917876468747, "dur":15848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":7, "ts":1660917876484647, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1660917876484701, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917876496700, "dur":34795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1660917876531522, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1660917876531550, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917876531557, "dur":93676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1660917876625260, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1660917876625293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917876627145, "dur":20642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1660917876647817, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1660917876647870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917876649031, "dur":218005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1660917876867066, "dur":5476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917876872548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917876872556, "dur":3873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917876876463, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917876876484, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917876876488, "dur":91115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917876967638, "dur":16417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917876984062, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917876984071, "dur":9750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917876993862, "dur":6970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877000839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877000848, "dur":4057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877004939, "dur":6208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877011154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877011162, "dur":6958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877018142, "dur":10424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877028572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877028581, "dur":4882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877033496, "dur":7932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877041436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877041444, "dur":4699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877046172, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877046191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877046199, "dur":31724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877077953, "dur":5690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877083649, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877083658, "dur":6340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877090030, "dur":8321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877098357, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877098366, "dur":3641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877102035, "dur":6077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877108119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877108127, "dur":4980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877113138, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877113153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877113159, "dur":58478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877171669, "dur":5697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877177372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877177380, "dur":10178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877187591, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877187609, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877187618, "dur":25069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877212712, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877212731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877212758, "dur":62940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877275745, "dur":5559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877281308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877281315, "dur":4185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877285553, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877285629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877285676, "dur":24047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877309748, "dur":5844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877315600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877315632, "dur":5997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877321673, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877321699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877321704, "dur":73800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877395533, "dur":30992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877426532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877426540, "dur":23296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877449863, "dur":7927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877457797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877457805, "dur":5184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877463013, "dur":10784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877473805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877473831, "dur":4965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877478820, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877478840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877478846, "dur":41804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877520675, "dur":7642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877528323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877528332, "dur":6003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877534363, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877534383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877534391, "dur":26822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877561235, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877561252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877561259, "dur":29923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877591213, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877591236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877591244, "dur":34085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877625358, "dur":6555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877631917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877631923, "dur":3608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877635561, "dur":6263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877641831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877641839, "dur":4390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877646264, "dur":5680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877651950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877651958, "dur":5316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877657306, "dur":6628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877663940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877663949, "dur":4566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877668547, "dur":6344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877674898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877674906, "dur":4444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877679393, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877679413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877679419, "dur":38407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877717854, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877717878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877717885, "dur":25903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877743821, "dur":6020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877749849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877749857, "dur":4273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877754168, "dur":5785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877759956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877759964, "dur":5696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877765694, "dur":6650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877772351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877772359, "dur":5014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877777397, "dur":5807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877783211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877783219, "dur":7302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877790554, "dur":5712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877796272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877796280, "dur":3945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877800258, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877800278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877800285, "dur":180741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877981047, "dur":4231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877985282, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877985288, "dur":8427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917877993740, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877994267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917877994272, "dur":3057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917877997350, "dur":4105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917878001461, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917878001471, "dur":8970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917878010467, "dur":36048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917878046519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917878046525, "dur":50042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917878096595, "dur":1127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917878097725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917878097732, "dur":5370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917878103137, "dur":55223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917878158364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917878158370, "dur":241286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917878399687, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917878399707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917878399713, "dur":104353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917878504103, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917878504123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917878504129, "dur":160968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917878665128, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917878665144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917878665150, "dur":150744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1660917878815923, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917878815943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917878815950, "dur":22507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917878839071, "dur":154509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917878993586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1660917878993594, "dur":22101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1660917879015730, "dur":8771007, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660917876451142, "dur":367, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660917876451510, "dur":4651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660917876456162, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":8, "ts":1660917876456230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660917876475834, "dur":2064038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":8, "ts":1660917878539899, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660917878539921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660917878539949, "dur":90402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660917878630382, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660917878630400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660917878630406, "dur":208285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660917878838951, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles P:/HypeLinux3/Hype_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660917878838974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1660917878839015, "dur":283153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"P:/HypeLinux3/Hype_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1660917879122206, "dur":8664548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1660917887789879, "dur":1907, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1660917888375066, "dur": 4549, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1660917888079057, "dur": 300588, "ph": "X", "name": "Write chrome-trace events", "args": {} },

@@ -8,16 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Torras.unity
     guid: 38d34c6620274430da3fc18124a82dfe
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Forest.unity
     guid: f119d6a63c33eb948a420df39407bfda
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Field of Courage.unity
     guid: 23e1d2f3df1dfd540b74f593e7c39383
-  - enabled: 1
-    path: Assets/Scenes/Gogoud's Manor.unity
-    guid: a10ac4037d28a5f4cb14d3bc172c839a
-  - enabled: 1
-    path: Assets/Scenes/Parc.unity
-    guid: 09f66fe57e8622d47b6478591bb66c74
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
