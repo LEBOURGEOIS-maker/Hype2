@@ -355,6 +355,7 @@
 "Assets/Scripts/CharacterMotor.cs"
 "Assets/Scripts/Checkpoint.cs"
 "Assets/Scripts/Deathzone.cs"
+"Assets/Scripts/DoorController.cs"
 "Assets/Scripts/DoorScript.cs"
 "Assets/Scripts/LevelLoader.cs"
 "Assets/Scripts/MapLoader_Park.cs"

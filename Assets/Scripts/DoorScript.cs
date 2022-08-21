@@ -18,7 +18,7 @@ public class DoorScript : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        anim.SetTrigger("OpenDoor");
+        anim.SetTrigger("MainDoorTorrasOpening");
     }
     private void OnTriggerExit(Collider other)
     {
