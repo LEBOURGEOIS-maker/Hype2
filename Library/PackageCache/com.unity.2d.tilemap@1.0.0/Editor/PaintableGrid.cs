@@ -100,11 +100,13 @@ namespace UnityEditor.Tilemaps
         {
             var evt = Event.current;
 
-            if (evt.type == EventType.Layout)
-                HandleUtility.AddDefaultControl(m_PermanentControlID);
-
             if (CanPickOutsideEditMode() || inEditMode)
+            {
+                if (evt.type == EventType.Layout)
+                    HandleUtility.AddDefaultControl(m_PermanentControlID);
+
                 HandleBrushPicking();
+            }
 
             if (inEditMode)
             {
@@ -414,6 +416,7 @@ namespace UnityEditor.Tilemaps
                             else
                                 Paint(position);
                         }
+                        ResetPreviousMousePositionToCurrentPosition();
                         Event.current.Use();
                         GUI.changed = true;
                     }

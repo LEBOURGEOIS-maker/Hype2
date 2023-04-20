@@ -596,9 +596,9 @@ namespace UnityEditor.Tilemaps
 
             using (new PreviewInstanceScope(guiRect, previewUtility, paletteInstance, m_Owner.drawGizmos))
             {
+                previewUtility.Render(true);
                 if (m_Owner.drawGridGizmo)
                     RenderGrid();
-                previewUtility.Render();
                 if (m_Owner.drawGizmos)
                 {
                     // Set CameraType to SceneView to force Gizmos to be drawn
