@@ -129,6 +129,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.toolchain.linux-x86_64@2.0.10": {
+      "name": "com.unity.toolchain.linux-x86_64",
+      "displayName": "Toolchain Linux x64",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.toolchain.linux-x86_64@5a6ce31f8a65",
+      "fingerprint": "5a6ce31f8a65b8bae16857cfbdc108c58cdd34f9",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.10",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
@@ -419,6 +429,26 @@
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.sysroot@2.0.10": {
+      "name": "com.unity.sysroot",
+      "displayName": "Sysroot Base",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.sysroot@7bbbb9339c14",
+      "fingerprint": "7bbbb9339c143f6fbccaeb0a52c77b9217b35a71",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.10",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.sysroot.linux-x86_64@2.0.9": {
+      "name": "com.unity.sysroot.linux-x86_64",
+      "displayName": "Sysroot Linux x64",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.sysroot.linux-x86_64@1998d1c7730e",
+      "fingerprint": "1998d1c7730e48fa49f28d983fececfc9cbd970b",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.9",
+      "source": "registry",
       "testable": false
     },
     "com.unity.ext.nunit@2.0.5": {

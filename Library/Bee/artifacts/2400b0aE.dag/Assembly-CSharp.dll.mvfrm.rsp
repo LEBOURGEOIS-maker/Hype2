@@ -16,10 +16,13 @@ Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Components.ref.dll_711D0142521C
 Library/Bee/artifacts/mvdfrm/Unity.Services.Core.Environments.ref.dll_4587DD93240D2CE3.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Services.Core.ref.dll_B122F1A1160C9981.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Settings.Editor.ref.dll_C5D459AC3FA0C65A.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Sysroot.Linux_x86_64.ref.dll_47C0B0C1257E42B5.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.SysrootPackage.Editor.ref.dll_795E971823712576.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.Editor.ref.dll_B8A961BBD8ABE0FC.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_8DB7A3E3632A4E05.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Timeline.Editor.ref.dll_53B6806BAD4EBBBC.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_5AB3C2EE9968C745.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Toolchain.Linux-x86_64.ref.dll_1D7A0D228D2803C9.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.VisualStudio.Editor.ref.dll_45A2A186C05004D7.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEditor.Purchasing.ref.dll_96AB01B153FE9C75.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEditor.SpatialTracking.ref.dll_B0B2E6B68FFCFD5A.mvfrm
@@ -148,6 +151,7 @@ Library/Bee/artifacts/mvdfrm/UnityEngine.VirtualTexturingModule.dll_FA83C3F8A483
 Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_4319EFD1E9548CC4.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_E9B7D1907F09C406.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.dll_A586C5AB194C2C4A.mvfrm
+Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_9A8CFB4DD448EBAE.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Analytics.StandardEvents.dll_95311E6DDF2FBAF5.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Analytics.Editor.dll_6CA7E7CCD2E7C359.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.Analytics.Tracker.dll_F6024F6035B84248.mvfrm

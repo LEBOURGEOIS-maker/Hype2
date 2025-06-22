@@ -363,6 +363,7 @@
 -r:"/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll"
 -r:"/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll"
 -r:"/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit@b16e6d09cd93/net40/unity-custom/nunit.framework.dll"
 -analyzer:"/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"

@@ -128,3 +128,6 @@ Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_4319EFD1E9548CC4.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_E9B7D1907F09C406.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.dll_A586C5AB194C2C4A.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEditor.LinuxStandalone.Extensions.dll_C61C96D9B7141EA0.mvfrm
+Library/Bee/artifacts/mvdfrm/UnityEditor.OSXStandalone.Extensions.dll_8BCB40E298DECF1B.mvfrm
+Library/Bee/artifacts/mvdfrm/UnityEditor.iOS.Extensions.Xcode.dll_9A8CFB4DD448EBAE.mvfrm
+Library/Bee/artifacts/mvdfrm/UnityEditor.WindowsStandalone.Extensions.dll_E971477C32CEB170.mvfrm
