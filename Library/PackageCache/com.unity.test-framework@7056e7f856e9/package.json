@@ -214,9 +214,5 @@
       "path": "Samples~/17_RunningTestsProgrammatically_Solution"
     }
   ],
-<<<<<<<< Updated upstream:Library/PackageCache/com.unity.test-framework@960f8d82a4fc/package.json
-  "_fingerprint": "960f8d82a4fcae5d739023493c11158c313874b8"
-========
   "_fingerprint": "7056e7f856e91f1d294fbe8db0c8fea1ffd9ad5d"
->>>>>>>> Stashed changes:Library/PackageCache/com.unity.test-framework@7056e7f856e9/package.json
 }
