@@ -1,0 +1,67 @@
+# === Unity ===
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.unityproj
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+
+# === Rider ===
+.idea/
+*.sln.iml
+
+# === VS Code ===
+.vscode/
+.history/
+
+# === macOS ===
+.DS_Store
+
+# === Windows ===
+Thumbs.db
+desktop.ini
+
+# === Unity Cache / Collaborate / Plastic SCM ===
+.globals/
+.plastic/
+.collabignore
+.CollabIgnore.txt
+
+# === Auto-generated ===
+/Assets/Plugins/Editor/JetBrains*
+sysinfo.txt
+
+# === Build artifacts ===
+*.apk
+*.aab
+*.unitypackage
+
+# === Crash Reports and other debug ===
+*.stacktrace
+
+# === Visual Studio ===
+*.csproj
+*.unityproj
+*.sln
+*.sln.docstates
+
+# === Other ===
+*.log
+*.bak
+*.tmp
+*.old
+*.orig
