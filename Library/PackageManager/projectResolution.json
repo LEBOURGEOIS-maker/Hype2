@@ -1,12 +1,12 @@
 {
   "context": {
     "projectPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Packages",
-    "unityVersion": "6000.1.7f1"
+    "unityVersion": "6000.1.8f1"
   },
   "inputs": [
     "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Packages/manifest.json",
     "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Packages/packages-lock.json",
-    "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
+    "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.2d.sprite@1.0.0": {
@@ -112,8 +112,8 @@
     "com.unity.test-framework@1.5.1": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.test-framework@cbf6445a296c",
-      "fingerprint": "cbf6445a296c37a8b4336cd212d6d5a2d36571c5",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.test-framework@960f8d82a4fc",
+      "fingerprint": "960f8d82a4fcae5d739023493c11158c313874b8",
       "editorCompatibility": "2022.3.0a1",
       "version": "1.5.1",
       "source": "builtin",
@@ -142,8 +142,8 @@
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.ugui@d3966e132bf9",
-      "fingerprint": "d3966e132bf9d847ac00b46319b3e78fb884832c",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.ugui@548fa833cfca",
+      "fingerprint": "548fa833cfcafc6b79056bd9ff28138f892c031a",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
       "source": "builtin",
@@ -162,7 +162,7 @@
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -170,7 +170,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -178,7 +178,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -186,7 +186,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -194,7 +194,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -202,7 +202,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -210,7 +210,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -218,7 +218,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.director",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -226,7 +226,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -234,7 +234,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -242,7 +242,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -250,7 +250,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -258,7 +258,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -266,7 +266,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -274,7 +274,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -282,7 +282,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -290,7 +290,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -298,7 +298,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -306,7 +306,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -314,7 +314,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -322,7 +322,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -330,7 +330,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -338,7 +338,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -346,7 +346,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -354,7 +354,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -362,7 +362,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -370,7 +370,7 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -378,7 +378,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -386,7 +386,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.video",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.video",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -394,7 +394,7 @@
     "com.unity.modules.vr@1.0.0": {
       "name": "com.unity.modules.vr",
       "displayName": "VR",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -402,7 +402,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -410,7 +410,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -418,7 +418,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -426,7 +426,7 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
