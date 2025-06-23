@@ -19,9 +19,5 @@
     "com.unity.modules.ui": "1.0.0",
     "com.unity.modules.imgui": "1.0.0"
   },
-<<<<<<<< Updated upstream:Library/PackageCache/com.unity.ugui@548fa833cfca/package.json
   "_fingerprint": "548fa833cfcafc6b79056bd9ff28138f892c031a"
-========
-  "_fingerprint": "57cef44123c7486b2e2f08dc6535aecf6c34b8ef"
->>>>>>>> Stashed changes:Library/PackageCache/com.unity.ugui@57cef44123c7/package.json
 }

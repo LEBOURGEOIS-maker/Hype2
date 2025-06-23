@@ -1,6 +1,5 @@
 {
   "context": {
-<<<<<<< Updated upstream
     "projectPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Packages",
     "unityVersion": "6000.1.8f1"
   },
@@ -8,22 +7,13 @@
     "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Packages/manifest.json",
     "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Packages/packages-lock.json",
     "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
-=======
-    "projectPath": "E:/Users/EMILIE/Documents/GitHub/hype2/Packages",
-    "unityVersion": "6000.1.8f1"
-  },
-  "inputs": [
-    "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Packages\\manifest.json",
-    "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Packages\\packages-lock.json",
-    "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
->>>>>>> Stashed changes
   ],
   "outputs": {
     "com.unity.2d.sprite@1.0.0": {
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.2d.sprite@5eb30061d420",
-      "fingerprint": "5eb30061d42006925d91d40a6a8fca10bd64bbee",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.2d.sprite@f8c851cdc7eb",
+      "fingerprint": "f8c851cdc7eb56c8d17dbf4e1bd786a18c3c2907",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin",
@@ -32,8 +22,8 @@
     "com.unity.2d.tilemap@1.0.0": {
       "name": "com.unity.2d.tilemap",
       "displayName": "2D Tilemap Editor",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.2d.tilemap@855769f9baae",
-      "fingerprint": "855769f9baae5e646d6af726032246ec4a7c0d19",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.2d.tilemap@70b208aa19b3",
+      "fingerprint": "70b208aa19b3c17010b7a49562f55f102f449dca",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin",
@@ -42,7 +32,7 @@
     "com.unity.ai.navigation@2.0.8": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.ai.navigation@eb5635ad590d",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.ai.navigation@eb5635ad590d",
       "fingerprint": "eb5635ad590d47cef2a5c920d9475cc222db3f67",
       "editorCompatibility": "6000.0.0a1",
       "version": "2.0.8",
@@ -52,7 +42,7 @@
     "com.unity.analytics@3.8.1": {
       "name": "com.unity.analytics",
       "displayName": "Analytics Library",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.analytics@6cc66d58ac08",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.analytics@6cc66d58ac08",
       "fingerprint": "6cc66d58ac08950316d3b86a26c92187aca1ddb0",
       "editorCompatibility": "2019.3.0a1",
       "version": "3.8.1",
@@ -62,7 +52,7 @@
     "com.unity.collab-proxy@2.8.2": {
       "name": "com.unity.collab-proxy",
       "displayName": "Version Control",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.collab-proxy@c854d1f7d97f",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f",
       "fingerprint": "c854d1f7d97fbe1905f3e3591ded6fe77d96e654",
       "editorCompatibility": "2021.3.0f1",
       "version": "2.8.2",
@@ -72,7 +62,7 @@
     "com.unity.ide.rider@3.0.36": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.ide.rider@4d374c7eb6db",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.ide.rider@4d374c7eb6db",
       "fingerprint": "4d374c7eb6db6907c7e6925e3086c3c73f926e13",
       "editorCompatibility": "2019.4.6f1",
       "version": "3.0.36",
@@ -82,7 +72,7 @@
     "com.unity.ide.visualstudio@2.0.23": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13",
       "fingerprint": "198cdf337d13c83ca953581515630d66b779e92b",
       "editorCompatibility": "2019.4.25f1",
       "version": "2.0.23",
@@ -92,8 +82,8 @@
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
-      "fingerprint": "f3fb577b3546594b97b8cc34307cd621f60f1c73",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.multiplayer.center@f5e57a8bed06",
+      "fingerprint": "f5e57a8bed0637672c58142b1bfd7e6fea03746c",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
       "source": "builtin",
@@ -102,7 +92,7 @@
     "com.unity.purchasing@4.12.2": {
       "name": "com.unity.purchasing",
       "displayName": "In App Purchasing",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.purchasing@649c6c7b3b1b",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.purchasing@649c6c7b3b1b",
       "fingerprint": "649c6c7b3b1b6277839041f4987c0a1e66176678",
       "editorCompatibility": "2020.3.0a1",
       "version": "4.12.2",
@@ -112,7 +102,7 @@
     "com.unity.services.mediation@1.0.5": {
       "name": "com.unity.services.mediation",
       "displayName": "Advertisement with Mediation",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.services.mediation@2ee5e22c29d4",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.services.mediation@2ee5e22c29d4",
       "fingerprint": "2ee5e22c29d406599165dbdb66b20bbddfc47476",
       "editorCompatibility": "2019.4.0a1",
       "version": "1.0.5",
@@ -122,13 +112,8 @@
     "com.unity.test-framework@1.5.1": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.test-framework@960f8d82a4fc",
       "fingerprint": "960f8d82a4fcae5d739023493c11158c313874b8",
-=======
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.test-framework@7056e7f856e9",
-      "fingerprint": "7056e7f856e91f1d294fbe8db0c8fea1ffd9ad5d",
->>>>>>> Stashed changes
       "editorCompatibility": "2022.3.0a1",
       "version": "1.5.1",
       "source": "builtin",
@@ -137,7 +122,7 @@
     "com.unity.timeline@1.8.7": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.timeline@c58b4ee65782",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.timeline@c58b4ee65782",
       "fingerprint": "c58b4ee65782ad38338e29f7ee67787cb6998f04",
       "editorCompatibility": "2019.3.0a1",
       "version": "1.8.7",
@@ -157,13 +142,8 @@
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.ugui@548fa833cfca",
       "fingerprint": "548fa833cfcafc6b79056bd9ff28138f892c031a",
-=======
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.ugui@57cef44123c7",
-      "fingerprint": "57cef44123c7486b2e2f08dc6535aecf6c34b8ef",
->>>>>>> Stashed changes
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
       "source": "builtin",
@@ -172,7 +152,7 @@
     "com.unity.xr.legacyinputhelpers@2.1.12": {
       "name": "com.unity.xr.legacyinputhelpers",
       "displayName": "XR Legacy Input Helpers",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers@b7579e86f3b4",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.xr.legacyinputhelpers@b7579e86f3b4",
       "fingerprint": "b7579e86f3b456c909fda6b875fba7ab1eeb1322",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.1.12",
@@ -182,11 +162,7 @@
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -194,11 +170,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -206,11 +178,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -218,11 +186,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -230,11 +194,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -242,11 +202,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -254,11 +210,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -266,11 +218,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.director",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -278,11 +226,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -290,11 +234,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -302,11 +242,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -314,11 +250,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -326,11 +258,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -338,11 +266,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -350,11 +274,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -362,11 +282,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -374,11 +290,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -386,11 +298,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -398,11 +306,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -410,11 +314,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -422,11 +322,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -434,11 +330,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -446,11 +338,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -458,11 +346,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -470,11 +354,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -482,11 +362,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -494,11 +370,7 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -506,11 +378,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -518,11 +386,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.video",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -530,11 +394,7 @@
     "com.unity.modules.vr@1.0.0": {
       "name": "com.unity.modules.vr",
       "displayName": "VR",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -542,11 +402,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -554,11 +410,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -566,11 +418,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -578,11 +426,7 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-<<<<<<< Updated upstream
       "resolvedPath": "/mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore",
-=======
-      "resolvedPath": "E:\\Program Files\\Unity Hub\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
->>>>>>> Stashed changes
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -610,8 +454,8 @@
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
-      "fingerprint": "031a54704bffe39e6a0324909f8eaa4565bdebf2",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.ext.nunit@b16e6d09cd93",
+      "fingerprint": "b16e6d09cd93f527249a1f05a86ef45695dc934b",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
       "source": "builtin",
@@ -620,7 +464,7 @@
     "com.unity.services.core@1.14.0": {
       "name": "com.unity.services.core",
       "displayName": "Services Core",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.services.core@9e81a5e38245",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.services.core@9e81a5e38245",
       "fingerprint": "9e81a5e382457b799480b311ce51187be99abbbf",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.14.0",
@@ -630,7 +474,7 @@
     "com.unity.settings-manager@2.1.0": {
       "name": "com.unity.settings-manager",
       "displayName": "Settings Manager",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.settings-manager@41738c275190",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.settings-manager@41738c275190",
       "fingerprint": "41738c27519039c335849eb78949382f4d7a3544",
       "editorCompatibility": "2022.3.0a1",
       "version": "2.1.0",
@@ -640,7 +484,7 @@
     "com.unity.services.analytics@6.0.2": {
       "name": "com.unity.services.analytics",
       "displayName": "Analytics",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.services.analytics@6629cba2f5e7",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.services.analytics@6629cba2f5e7",
       "fingerprint": "6629cba2f5e7ff255833c417c8610bd06c505241",
       "editorCompatibility": "2021.3.0a1",
       "version": "6.0.2",
@@ -650,7 +494,7 @@
     "com.unity.nuget.newtonsoft-json@3.2.1": {
       "name": "com.unity.nuget.newtonsoft-json",
       "displayName": "Newtonsoft Json",
-      "resolvedPath": "E:\\Users\\EMILIE\\Documents\\GitHub\\hype2\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@74deb55db2a0",
+      "resolvedPath": "/mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0",
       "fingerprint": "74deb55db2a0c29ddfda576608bcb86abbd13ee6",
       "editorCompatibility": "2018.4.0a1",
       "version": "3.2.1",
