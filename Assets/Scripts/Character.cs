@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-    // Animation component (legacy)
     private Animation animations;
 
     // Movement settings
@@ -20,12 +19,6 @@ public class Character : MonoBehaviour
 
     // Jump settings
     public Vector3 jumpSpeed = new Vector3(0f, 7f, 0f);
-
-    // Movement key bindings (use AZERTY by default)
-    public string inputFront = "z";
-    public string inputBack = "s";
-    public string inputLeft = "q";
-    public string inputRight = "d";
 
     // State tracking
     public bool isDead = false;
@@ -60,46 +53,28 @@ public class Character : MonoBehaviour
 
     void HandleMovement()
     {
-        bool isMoving = false;
+        float vertical = Input.GetAxis("Vertical");     // Z (avant/arrière)
+        float horizontal = Input.GetAxis("Horizontal"); // Q/D (gauche/droite)
 
-        // Walk forward
-        if (Input.GetKey(inputFront) && !Input.GetKey(KeyCode.LeftShift))
+        bool isRunning = Input.GetKey(KeyCode.LeftShift);
+        bool isMoving = Mathf.Abs(vertical) > 0.01f || Mathf.Abs(horizontal) > 0.01f;
+
+        float moveSpeed = isRunning ? runSpeed : walkSpeed;
+
+        // Déplacement avant/arrière
+        Vector3 move = transform.forward * vertical * moveSpeed * Time.deltaTime;
+        transform.position += move;
+
+        // Rotation gauche/droite
+        float rotation = horizontal * turnSpeed * Time.deltaTime;
+        transform.Rotate(0f, rotation, 0f);
+
+        // Animation
+        if (isMoving)
         {
-            transform.Translate(0f, 0f, walkSpeed * Time.deltaTime);
-            PlayAnimation("walk");
-            isMoving = true;
+            PlayAnimation(isRunning ? "run" : "walk");
         }
-
-        // Run forward
-        if (Input.GetKey(inputFront) && Input.GetKey(KeyCode.LeftShift))
-        {
-            transform.Translate(0f, 0f, runSpeed * Time.deltaTime);
-            PlayAnimation("run");
-            isMoving = true;
-        }
-
-        // Walk backward
-        if (Input.GetKey(inputBack))
-        {
-            transform.Translate(0f, 0f, -(walkSpeed / 2f) * Time.deltaTime);
-            PlayAnimation("walk");
-            isMoving = true;
-        }
-
-        // Rotate left
-        if (Input.GetKey(inputLeft))
-        {
-            transform.Rotate(0f, -turnSpeed * Time.deltaTime, 0f);
-        }
-
-        // Rotate right
-        if (Input.GetKey(inputRight))
-        {
-            transform.Rotate(0f, turnSpeed * Time.deltaTime, 0f);
-        }
-
-        // Idle if not moving
-        if (!isMoving && !isAttacking)
+        else if (!isAttacking)
         {
             PlayAnimation("idle");
         }
@@ -112,8 +87,8 @@ public class Character : MonoBehaviour
             rb.linearVelocity = velocity;
         }
 
-        // Attack input (can attack while idle or moving)
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        // Attack
+        if (Input.GetMouseButtonDown(0))
         {
             Attack();
         }
@@ -142,11 +117,9 @@ public class Character : MonoBehaviour
 
         if (rayHit != null)
         {
-            RaycastHit hit;
-            if (Physics.Raycast(rayHit.transform.position, transform.forward, out hit, attackRange))
+            if (Physics.Raycast(rayHit.transform.position, transform.forward, out RaycastHit hit, attackRange))
             {
                 Debug.DrawLine(rayHit.transform.position, hit.point, Color.red, 1f);
-                // Optionally: Deal damage to hit target
                 Debug.Log("Hit: " + hit.collider.name);
             }
         }
@@ -154,7 +127,7 @@ public class Character : MonoBehaviour
 
     bool IsGrounded()
     {
-        int groundLayer = 1 << 9; // Only layer 9
+        int groundLayer = 1 << 9; // Layer 9 only
         return Physics.CheckCapsule(
             playerCollider.bounds.center,
             new Vector3(playerCollider.bounds.center.x, playerCollider.bounds.min.y - 0.1f, playerCollider.bounds.center.z),
@@ -171,4 +144,3 @@ public class Character : MonoBehaviour
         }
     }
 }
-
