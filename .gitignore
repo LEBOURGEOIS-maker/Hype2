@@ -1,5 +1,7 @@
 # === Unity ===
 [Ll]ibrary/
+Library/
+Logs/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
