@@ -1,25 +1,39 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Packages/manifest.json
+    m_FilePath: E:/Users/EMILIE/Documents/GitHub/hype2/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638859932020000000
     m_Hash: 4030596588
+=======
+      ticks: 638862063204196598
+    m_Hash: 2244309748
+>>>>>>> Stashed changes
   m_LockFileStatus:
-    m_FilePath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Packages/packages-lock.json
+    m_FilePath: E:/Users/EMILIE/Documents/GitHub/hype2/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638859932020000000
     m_Hash: 3703814225
+=======
+      ticks: 638862063204196598
+    m_Hash: 2730960318
+>>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
+<<<<<<< Updated upstream
 m_ProjectPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Packages
+=======
+m_ProjectPath: E:/Users/EMILIE/Documents/GitHub/hype2/Packages
+>>>>>>> Stashed changes
 m_EditorVersion: 6000.1.8f1 (2a5b1522e5ab)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
@@ -27,7 +41,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.2d.sprite@f8c851cdc7eb
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.2d.sprite@5eb30061d420
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -87,7 +101,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: f8c851cdc7eb56c8d17dbf4e1bd786a18c3c2907
+  fingerprint: 5eb30061d42006925d91d40a6a8fca10bd64bbee
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -97,7 +111,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.2d.tilemap@70b208aa19b3
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.2d.tilemap@855769f9baae
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -174,7 +188,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 70b208aa19b3c17010b7a49562f55f102f449dca
+  fingerprint: 855769f9baae5e646d6af726032246ec4a7c0d19
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -184,7 +198,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.8
   source: 1
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.ai.navigation@eb5635ad590d
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.ai.navigation@eb5635ad590d
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -260,7 +274,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638841129733020000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
@@ -296,7 +310,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.8.1
   source: 1
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.analytics@6cc66d58ac08
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.analytics@6cc66d58ac08
   assetPath: Packages/com.unity.analytics
   name: com.unity.analytics
   displayName: Analytics Library
@@ -367,15 +381,15 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.services.analytics
     version: 6.0.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.services.core
     version: 1.14.0
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   keywords:
   - analytics
@@ -424,7 +438,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.8.2
   source: 1
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -551,7 +565,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638822079721750000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.8/manual/index.html
@@ -587,7 +601,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.36
   source: 1
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.ide.rider@4d374c7eb6db
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.ide.rider@4d374c7eb6db
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -670,7 +684,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638799562419060000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
@@ -705,7 +719,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.23
   source: 1
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -773,7 +787,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638786696173840000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
@@ -811,7 +825,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.multiplayer.center@f5e57a8bed06
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -891,7 +905,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: f5e57a8bed0637672c58142b1bfd7e6fea03746c
+  fingerprint: f3fb577b3546594b97b8cc34307cd621f60f1c73
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -901,7 +915,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.12.2
   source: 1
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.purchasing@649c6c7b3b1b
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.purchasing@649c6c7b3b1b
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -910,7 +924,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: "IMPORTANT UPGRADE NOTES:\n\nIf updating from Unity IAP (com.unity.purchasing
     + the Asset Store plugin) versions 2.x to version 3.x, complete the following
     actions in order to resolve compilation errors:\n 1. Move IAPProductCatalog.json
@@ -1019,14 +1033,14 @@ m_ResolvedPackages:
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
-  - name: com.unity.services.core
-    version: 1.12.5
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.12.5
   resolvedDependencies:
   - name: com.unity.ugui
     version: 2.0.0
@@ -1034,16 +1048,16 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.services.core
-    version: 1.14.0
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.2.1
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.14.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
   keywords:
   - purchasing
   - iap
@@ -1058,7 +1072,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638568999980000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.purchasing@4.12/manual/index.html
@@ -1079,9 +1093,10 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- GooglePlay - Fixed `Product.receipt`''s
-    `price_amount_micros` returning a string instead of a long.","gameService":{"groupName":"Monetize","groupIndex":4,"configurePath":"Project/Services/In-App
-    Purchasing","genericDashboardUrl":"https://dashboard.unity3d.com/","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/v2/dashboards/revenue","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS"]}'
+  upmReserved: '{"gameService":{"groupIndex":4,"groupName":"Monetize","configurePath":"Project/Services/In-App
+    Purchasing","genericDashboardUrl":"https://dashboard.unity3d.com/","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/v2/dashboards/revenue","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS"],"changelog":"###
+    Fixed\n- GooglePlay - Fixed `Product.receipt`''s `price_amount_micros` returning
+    a string instead of a long."}'
   assetStore:
     productId: 
   fingerprint: 649c6c7b3b1b6277839041f4987c0a1e66176678
@@ -1094,7 +1109,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.5
   source: 1
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.services.mediation@2ee5e22c29d4
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.services.mediation@2ee5e22c29d4
   assetPath: Packages/com.unity.services.mediation
   name: com.unity.services.mediation
   displayName: Advertisement with Mediation
@@ -1157,11 +1172,11 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.services.core
     version: 1.14.0
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.settings-manager
     version: 2.1.0
@@ -1210,7 +1225,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.5.1
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.test-framework@960f8d82a4fc
+=======
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.test-framework@7056e7f856e9
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1338,7 +1357,11 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
+<<<<<<< Updated upstream
   fingerprint: 960f8d82a4fcae5d739023493c11158c313874b8
+=======
+  fingerprint: 7056e7f856e91f1d294fbe8db0c8fea1ffd9ad5d
+>>>>>>> Stashed changes
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.5.1
@@ -1348,7 +1371,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.timeline@c58b4ee65782
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.timeline@c58b4ee65782
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1357,7 +1380,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   errors: []
@@ -1457,18 +1480,18 @@ m_ResolvedPackages:
     recommended: 1.8.8
     deprecated: []
   dependencies:
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -1490,7 +1513,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638524833900000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
@@ -1633,7 +1656,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.ugui@548fa833cfca
+=======
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.ugui@57cef44123c7
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1718,7 +1745,11 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
+<<<<<<< Updated upstream
   fingerprint: 548fa833cfcafc6b79056bd9ff28138f892c031a
+=======
+  fingerprint: 57cef44123c7486b2e2f08dc6535aecf6c34b8ef
+>>>>>>> Stashed changes
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -1728,7 +1759,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.1.12
   source: 1
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.xr.legacyinputhelpers@b7579e86f3b4
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.xr.legacyinputhelpers@b7579e86f3b4
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -1810,7 +1841,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638738251595540000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.legacyinputhelpers@2.1/manual/index.html
@@ -1846,7 +1877,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1913,7 +1948,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1980,7 +2019,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -2046,7 +2089,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2113,7 +2160,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2180,7 +2231,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2247,7 +2302,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2318,7 +2377,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.director
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2393,7 +2456,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2460,7 +2527,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2527,7 +2598,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2594,7 +2669,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2661,7 +2740,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2728,7 +2811,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2795,7 +2882,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2866,7 +2957,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2933,7 +3028,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -3008,7 +3107,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -3078,7 +3181,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3145,7 +3252,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3228,7 +3339,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3295,7 +3410,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3369,7 +3488,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3436,7 +3559,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3511,7 +3638,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3586,7 +3717,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3661,7 +3796,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3752,7 +3891,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3823,7 +3966,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.video
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3902,7 +4049,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3983,7 +4134,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -4050,7 +4205,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -4129,7 +4288,11 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4200,7 +4363,11 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
+<<<<<<< Updated upstream
   resolvedPath: /mnt/DATA_LINUX/Documents/Unity/6000.1.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore
+=======
+  resolvedPath: E:\Program Files\Unity Hub\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+>>>>>>> Stashed changes
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -4448,7 +4615,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.ext.nunit@b16e6d09cd93
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4517,7 +4684,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: b16e6d09cd93f527249a1f05a86ef45695dc934b
+  fingerprint: 031a54704bffe39e6a0324909f8eaa4565bdebf2
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.5
@@ -4527,7 +4694,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.14.0
   source: 1
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.services.core@9e81a5e38245
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.services.core@9e81a5e38245
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -4581,18 +4748,18 @@ m_ResolvedPackages:
     recommended: 1.14.0
     deprecated: []
   dependencies:
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.unitywebrequest
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   keywords: []
   registry:
@@ -4605,7 +4772,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638684041320270000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.14/manual/index.html
@@ -4645,7 +4812,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.settings-manager@41738c275190
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4686,7 +4853,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638792046006940000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.settings-manager@2.1/manual/index.html
@@ -4722,7 +4889,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 6.0.2
   source: 1
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.services.analytics@6629cba2f5e7
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.services.analytics@6629cba2f5e7
   assetPath: Packages/com.unity.services.analytics
   name: com.unity.services.analytics
   displayName: Analytics
@@ -4776,10 +4943,10 @@ m_ResolvedPackages:
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
-  - name: com.unity.services.core
-    version: 1.12.4
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.12.4
   resolvedDependencies:
   - name: com.unity.ugui
     version: 2.0.0
@@ -4787,15 +4954,15 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.services.core
     version: 1.14.0
-  - name: com.unity.modules.androidjni
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   keywords: []
   registry:
@@ -4808,7 +4975,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638635624479490000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.analytics@6.0/manual/index.html
@@ -4829,17 +4996,17 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n* Go To Dashboard link in Package Manager
-    in 2022 and newer editor versions now leads to the correct landing page instead
-    of an unrelated error page\n* Numerous public API elements that were missing
-    XmlDoc comments now have them\n* Setting ExternalUserId before enabling the SDK
-    for the first time now correctly records a newPlayer event if it differs from
-    the last seen user ID\n* Changing ExternalUserId while data collection is enabled
-    now correctly starts a new session and records start-up events\n* Changing ExternalUserId
-    while data collection is disabled now correctly records start-up events when
-    it is (re)enabled","gameService":{"configurePath":"Project/Services/Analytics
-    - Gaming Services","genericDashboardUrl":"https://cloud.unity.com/analytics","projectDashboardUrl":"https://cloud.unity.com/home/organizations/{0}/projects/{1}/environments/default/analytics/v2/about","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS","Linux","Mac","PC","Windows
-    8.1 Universal","Windows 10 Universal","WebGL"]}'
+  upmReserved: '{"gameService":{"genericDashboardUrl":"https://cloud.unity.com/analytics","projectDashboardUrl":"https://cloud.unity.com/home/organizations/{0}/projects/{1}/environments/default/analytics/v2/about","projectDashboardUrlType":"OrganizationKeyAndProjectGuid","configurePath":"Project/Services/Analytics
+    - Gaming Services"},"supportedPlatforms":["Android","iOS","Linux","Mac","PC","Windows
+    8.1 Universal","Windows 10 Universal","WebGL"],"changelog":"### Fixed\n\n* Go
+    To Dashboard link in Package Manager in 2022 and newer editor versions now leads
+    to the correct landing page instead of an unrelated error page\n* Numerous public
+    API elements that were missing XmlDoc comments now have them\n* Setting ExternalUserId
+    before enabling the SDK for the first time now correctly records a newPlayer
+    event if it differs from the last seen user ID\n* Changing ExternalUserId while
+    data collection is enabled now correctly starts a new session and records start-up
+    events\n* Changing ExternalUserId while data collection is disabled now correctly
+    records start-up events when it is (re)enabled"}'
   assetStore:
     productId: 
   fingerprint: 6629cba2f5e7ff255833c417c8610bd06c505241
@@ -4852,7 +5019,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.2.1
   source: 1
-  resolvedPath: /mnt/DATA_LINUX/Documents/GitHub/Hype2/Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0
+  resolvedPath: E:\Users\EMILIE\Documents\GitHub\hype2\Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -4908,7 +5075,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638186318800000000
   documentationUrl: 
@@ -4938,4 +5105,8 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 3.2.1
     minimumUnityVersion: 2018.4.0a1
+<<<<<<< Updated upstream
 m_BuiltInPackagesHash: a6e5ddd41b30b5e6c66394d04272c2f41f2a7989
+=======
+m_BuiltInPackagesHash: cfd11ab9ae2ef5e76c6cd7eb41ac397e986a3fd1
+>>>>>>> Stashed changes
