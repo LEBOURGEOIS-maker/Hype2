@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Torras.unity
+=======
+- path: Assets/Scenes/Torras3.unity
+>>>>>>> cdb4eccf8fbc8943f6bb8b4ac2c4b2ee69f5a943
   isLoaded: 1
   isActive: 1
   isSubScene: 0
