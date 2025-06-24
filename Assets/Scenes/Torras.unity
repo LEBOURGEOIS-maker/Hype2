@@ -25559,15 +25559,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 36979da4569d7b40eb39ce9adb6141d3,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1918200526}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 36979da4569d7b40eb39ce9adb6141d3,
-        type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1918200525}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 36979da4569d7b40eb39ce9adb6141d3,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1918200524}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 36979da4569d7b40eb39ce9adb6141d3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1918200529}
   m_SourcePrefab: {fileID: 100100000, guid: 36979da4569d7b40eb39ce9adb6141d3, type: 3}
 --- !u!1001 &413144100
 PrefabInstance:
@@ -94285,7 +94285,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7fba21800e994429bbb2e5b0745225, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelLoader: {fileID: 0}
 --- !u!65 &1746424546
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -104700,27 +104699,33 @@ CapsuleCollider:
   m_Height: 8.911568
   m_Direction: 1
   m_Center: {x: -0.025651097, y: -1.4102244, z: 0.32004964}
---- !u!65 &1918200526
-BoxCollider:
+--- !u!54 &1918200529
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1918200520}
-  m_Material: {fileID: 0}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 6, y: 10, z: 5}
-  m_Center: {x: -0.025651097, y: -1.4102244, z: 0.32004964}
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!4 &1919290285 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 475320, guid: 8af81063e11664998b7990951a8cf862,
