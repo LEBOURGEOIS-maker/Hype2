@@ -56,11 +56,11 @@ public class Character : MonoBehaviour
 
         if (Physics.Raycast(origin, Vector3.down, rayLength))
         {
-            Debug.Log("Au sol !");
+            //Debug.Log("Au sol !");
         }
         else
         {
-            Debug.Log("Pas au sol !");
+            //Debug.Log("Pas au sol !");
         }
 
     }
@@ -83,16 +83,16 @@ public class Character : MonoBehaviour
         float rotation = horizontal * turnSpeed * Time.deltaTime;
         transform.Rotate(0f, rotation, 0f);
 
-/*
-        // Animation
-        if (isMoving)
-        {
-            PlayAnimation(isRunning ? "run" : "walk");
-        }
-        else if (!isAttacking)
-        {
-            PlayAnimation("idle");
-        }*/
+        /*
+                // Animation
+                if (isMoving)
+                {
+                    PlayAnimation(isRunning ? "run" : "walk");
+                }
+                else if (!isAttacking)
+                {
+                    PlayAnimation("idle");
+                }*/
 
         //JUUUMP
         if (Input.GetKeyDown(KeyCode.Space))
@@ -131,25 +131,25 @@ public class Character : MonoBehaviour
             }
         }
     }
-/*
-    void Attack()
-    {
-        if (isAttacking) return;
-
-        isAttacking = true;
-        currentCooldown = attackCooldown;
-        PlayAnimation("attack");
-
-        if (rayHit != null)
+    /*
+        void Attack()
         {
-            if (Physics.Raycast(rayHit.transform.position, transform.forward, out RaycastHit hit, attackRange))
+            if (isAttacking) return;
+
+            isAttacking = true;
+            currentCooldown = attackCooldown;
+            PlayAnimation("attack");
+
+            if (rayHit != null)
             {
-                Debug.DrawLine(rayHit.transform.position, hit.point, Color.red, 1f);
-                Debug.Log("Hit: " + hit.collider.name);
+                if (Physics.Raycast(rayHit.transform.position, transform.forward, out RaycastHit hit, attackRange))
+                {
+                    Debug.DrawLine(rayHit.transform.position, hit.point, Color.red, 1f);
+                    Debug.Log("Hit: " + hit.collider.name);
+                }
             }
         }
-    }
-*/
+    */
     bool IsGrounded()
     {
         float checkRadius = 0.3f;
@@ -163,13 +163,13 @@ public class Character : MonoBehaviour
 
 
 
-/*
-    void PlayAnimation(string animationName)
-    {
-        if (!animations.IsPlaying(animationName))
+    /*
+        void PlayAnimation(string animationName)
         {
-            animations.Play(animationName);
+            if (!animations.IsPlaying(animationName))
+            {
+                animations.Play(animationName);
+            }
         }
-    }
-    */
+        */
 }
