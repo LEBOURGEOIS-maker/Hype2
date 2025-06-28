@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1680
     height: 959
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 157
+  controlID: 91
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -353,7 +353,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Terrain
+    - Assets/Prefabs
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -363,16 +363,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Terrain
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Users\EMILIE\Documents\GitHub\hype2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 279}
-    m_SelectedIDs: 0e9e0000
-    m_LastClickedID: 40462
-    m_ExpandedIDs: 00000000629d000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 39}
+    m_SelectedIDs: 5a9e0000
+    m_LastClickedID: 40538
+    m_ExpandedIDs: 00000000ba9d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -401,7 +401,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000629d0000
+    m_ExpandedIDs: 00000000ba9d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -429,7 +429,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -548,10 +548,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 3047}
-      m_SelectedIDs: 44f4feff46f4feff
-      m_LastClickedID: -68538
-      m_ExpandedIDs: 1efbffff128900003e8b0000548b00000c9200000e950000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: c29e0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0e82ffff9883ffffd6e8ffff1efbffffde7f0000989100005c920000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -868,11 +868,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Particles
       index: 9
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 0}
+      snapOffset: {x: 24, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -1086,9 +1086,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -10.202069, y: 38.157555, z: -383.01797}
+    m_Target: {x: -7.833824, y: -335.42282, z: 737.17017}
     speed: 2
-    m_Value: {x: -10.202069, y: 38.157555, z: -383.01797}
+    m_Value: {x: -7.833824, y: -335.42282, z: 737.17017}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1134,20 +1134,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.00021540181, y: -0.9987924, z: -0.05023946, w: -0.002501978}
+    m_Target: {x: 0.20479426, y: 0.003115198, z: -0.000734238, w: 0.9788614}
     speed: 2
-    m_Value: {x: 0.00014003426, y: -0.9987369, z: -0.050236806, w: -0.0010037286}
+    m_Value: {x: 0.20331438, y: 0.0016474427, z: -0.0004245489, w: 0.9791121}
   m_Size:
-    m_Target: 180.04794
+    m_Target: 435.73602
     speed: 2
-    m_Value: 188.53188
+    m_Value: 456.2681
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.1404299
-    m_SpeedNormalized: 0.56999993
+    m_Speed: 1.5602195
+    m_SpeedNormalized: 0.7799998
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
