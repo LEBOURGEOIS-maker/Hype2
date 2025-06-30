@@ -26,20 +26,20 @@ public class Character : MonoBehaviour
     // Cached components
     private Rigidbody rb;
     private CapsuleCollider playerCollider;
-    private GameObject rayHit;
+    //private GameObject rayHit;
 
     void Start()
     {
         animations = GetComponent<Animation>();
         rb = GetComponent<Rigidbody>();
         playerCollider = GetComponent<CapsuleCollider>();
-        rayHit = GameObject.Find("RayHit");
-
+        //rayHit = GameObject.Find("RayHit");
+/*
         if (rayHit == null)
         {
             Debug.LogWarning("RayHit GameObject not found. Attack raycasting may not work.");
         }
-
+*/
         currentCooldown = attackCooldown;
     }
 
