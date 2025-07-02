@@ -1,29 +1,31 @@
 using UnityEngine;
 
-public class bridgeScript : MonoBehaviour
+public class BridgeScript : MonoBehaviour
 {
     public Animator bridgeAnimator;
     private bool isOpen = false;
 
     void Start()
     {
-        bridgeAnimator = GetComponent<Animator>();
+        if (bridgeAnimator == null)
+            bridgeAnimator = GetComponent<Animator>();
     }
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("OnTriggerEnter function");
-        if (!isOpen)
+        Debug.Log("Trigger Enter - IsOpen: " + isOpen);
+        if (other.CompareTag("Player") && !isOpen)
         {
             isOpen = true;
+            Debug.Log("Triggering opening animation");
             bridgeAnimator.SetTrigger("opening");
-            Debug.Log("Le joueur est entré dans la zone du pont.");
         }
     }
+
+
     void OnTriggerExit(Collider other)
     {
-        Debug.Log("OnTriggerExit function");
-        if (isOpen)
+        if (other.CompareTag("Player") && isOpen)
         {
             isOpen = false;
             bridgeAnimator.SetTrigger("closing");
