@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: 545390de6b944531eacf92ce2c16869c
+guid: 5c522f0ed1e74d1469d59ad47156d853
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: blue_metal_plate_diff_4k
-    second: {fileID: 2800000, guid: 4f67cd24c79c9d37096c09906cdfb3c2, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: wood_cabinet_worn_long_diff_4k
-    second: {fileID: 2800000, guid: 36541fd888feed0358907ffb0f601dc4, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

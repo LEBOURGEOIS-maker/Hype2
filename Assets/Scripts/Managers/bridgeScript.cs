@@ -22,7 +22,6 @@ public class BridgeScript : MonoBehaviour
         }
     }
 
-
     void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player") && isOpen)
